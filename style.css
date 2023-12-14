@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+header {
+    background-color: plum;
+    color: rgb(140, 0, 255);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+label{
+    color: rgb(140, 0, 255);
+    cursor: pointer;
+}
+
+label:hover{
+    color: #9f4ee2;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+a:hover {
+    color: rgb(140, 0, 255);
+    
+}
+
+.portifolio{
+    background-color: plum;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.corfundo{
+    background-color: rgb(13, 2, 24);
+}
+
+h1, h2{
+    color: rgb(140, 0, 255);
+    font-size: 60px;
+    margin-top: 0;
+    line-height: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.projetosdocurso{
+    color: rgb(140, 0, 255);
+    text-align: center;
+    padding-top: 40px;
+}
+
+img{
+    width: auto !important;
+    max-width: 250px !important;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.imagens {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.estilolabel{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.footer{
+    padding: 1px;
+    color: rgb(110, 113, 114);
+}
+
+.divlampada{
+    max-width: 190px !important;
+}
+
+.divcalculadora{
+    max-width: 190px !important;
+}
+.background{
+    background-image: url(girl.jpg) !important;
+    background-position: center
+}
+.girl{
+    text-align: right !important;
+}
+
+
