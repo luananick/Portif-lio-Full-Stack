@@ -1,0 +1,21 @@
+@keyframes animacao{
+    0%{
+        width: 100%;
+        background-color: rgb(255, 192, 203);
+    }
+    50%{
+        width: 50%;
+        background-color: #00ccff;
+    }
+    100%{
+        width: 100%;
+    } 
+}
+.elemento{
+   height: 50px;
+   border-radius: 5px;
+   background-color: #4af805;
+   animation-name: animacao;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
